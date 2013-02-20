@@ -217,3 +217,19 @@ section#intro h3 {
 #main_menu_link:hover {
 	text-decoration: underline;
 }
+
+#about_us h3 {
+	margin-top: 0.8em;
+	margin-bottom: 0.8em;
+	font-size: 13pt;
+}
+
+#about_us ul {
+	list-style-position: inside;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#about_us li {
+	padding-bottom: 0.3em;
+}
