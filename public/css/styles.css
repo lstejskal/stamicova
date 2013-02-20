@@ -131,6 +131,14 @@ h4 {
 	margin-bottom: 0;
 }
 
+#take_action h1 {
+	padding-bottom: 0;
+}
+
+#take_action h3 {
+	margin: 0;
+}
+
 #take_action #text {
 	float: right; 
 	margin-left: 2em;
@@ -139,7 +147,7 @@ h4 {
 
 #take_action li {
 	line-height: 1.2em; 
-	margin-bottom: 0.2em;
+	margin-bottom: 0;
 }
 
 #take_action li:last-child {
