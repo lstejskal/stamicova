@@ -231,16 +231,7 @@ section#intro h3 {
 	padding-bottom: 0.3em;
 }
 
-#letter_frame {
-	border: 1px solid gray;
-	background-color: #eee;
-	margin-top: 1em;
+.letter_instructions {
 	margin-bottom: 1em;
-	margin-left: 0em;
-	margin-right: 3em;
-	padding: 1em;
-}
-
-#example_letter {
-
+	font-style: italic;
 }
