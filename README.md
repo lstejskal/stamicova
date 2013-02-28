@@ -2,9 +2,7 @@
 
 ## Description
 
-Media webkit for citizens' association against hotel building in Stamicova street, Brno-Kohoutovice
-
-Will be available at [http://www.stamicova.cz](http://www.stamicova.cz)
+Media webkit for citizens' association against hotel building in Stamicova street, Brno-Kohoutovice: [http://www.stamicova.cz](http://www.stamicova.cz)
 
 ## Deployment
 
@@ -12,16 +10,7 @@ Will be available at [http://www.stamicova.cz](http://www.stamicova.cz)
 
 * *deploy* branch has version that is deployed in production
 
-* other branches serves for personal or feature branches   
-
-#### Quick help
-
-To merge branch A into B:
-```
-git checkout B
-git merge A
-git push origin B
-```
+* other branches serve as personal or feature branches   
 
 ## Authors
 
