@@ -235,3 +235,8 @@ section#intro h3 {
 	margin-bottom: 1em;
 	font-style: italic;
 }
+
+#main_page_link {
+	padding-bottom: 1em;
+	float: left;
+}
