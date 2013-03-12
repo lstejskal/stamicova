@@ -108,6 +108,33 @@ h4 {
 	margin: 0 auto;
 }
 
+#news_container {
+	margin: 0 auto;
+	background-color: lightgreen;
+	color: green;
+	width: 100%;
+	line-height: 1.5;
+	margin: -3em 0 2em; 
+	border-bottom: 1px solid green;
+}
+
+#news {
+	padding: 1.5em 0 1.5em;
+	text-align: center;
+	font-size: 20px;
+}
+
+
+#news a { 
+	color: green;
+	// text-decoration: none;
+}
+
+// #news a:hover { 
+// 	text-decoration: underline;
+// }
+
+
 #summary #images {
 	float: right; width: 450px;
 }
