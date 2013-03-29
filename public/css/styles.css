@@ -132,20 +132,18 @@ h4 {
 #summary #images {
 	float: right; 
 	width: 400px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 #summary #title { 
 	float: center;
-	clear: both;
+	width: 100%;
 }
 
 #summary #text {
 	float: left; 
 	width: 400px;
-}
-
-#summary ul {
-
 }
 
 #summary li {
