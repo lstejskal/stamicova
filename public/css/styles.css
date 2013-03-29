@@ -121,26 +121,27 @@ h4 {
 #news {
 	padding: 1.5em 0 1.5em;
 	text-align: center;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 
 #news a { 
 	color: green;
-	// text-decoration: none;
 }
 
-// #news a:hover { 
-// 	text-decoration: underline;
-// }
-
-
 #summary #images {
-	float: right; width: 450px;
+	float: right; 
+	width: 400px;
+}
+
+#summary #title { 
+	float: center;
+	clear: both;
 }
 
 #summary #text {
-	float: left; width: 400px;
+	float: left; 
+	width: 400px;
 }
 
 #summary ul {
