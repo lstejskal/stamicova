@@ -9,7 +9,22 @@
 
 <link rel="icon" href="images/favicon.gif" type="image/x-icon"/>
 <link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon"/> 
+
 <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.css"/>
+
+<!-- used only for the newsbox on the main site -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+
+<script type="text/javascript">
+
+  $(function() {
+    $( "#news_accordion" ).accordion({
+    });
+  });
+
+</script>
 
 <!-- google analytics -->
 <script type="text/javascript">
@@ -27,26 +42,33 @@
 </head>
 <body>
 
-<div id="news_container">
-  <div id="news">
-      <b>5. dubna:</b> Odevzdali jsme petici na radnici MČ Kohoutovice
-      <br />
-      spolu s <a href="files/petice_pruvodni_dopis_mc.pdf">průvodním dopisem, který si můžete přečíst i zde</a>.
-      <br /><br />
-      <b>20. března:</b> Petice proti zástavbě louky skončila 20. března.
-      <br />
-      Podepsalo ji <b>682</b> občanů, což považujeme za velký úspěch!
-      <br /><br />
-      <b>Děkujeme všem signatářům petice a zejména těm,
-      <br />
-      kteří ji aktivně šířili mezi ostatní občany Kohoutovic!</b>
-      <br /><br />
-      <b>12. března: <a href="http://www.kohoutovice.cz/file/3987">Investor V-Honey odstoupil od záměru výstavby hotelu!</a></b>
-      <br />
-      Údajně kvůli "složité ekonomické situaci", ovšem v posledních týdnech si nešlo
-      <br />
-      nevšimnout rozsáhlé vlny odporu proti stavbě mezi kohoutovickými občany.
-      
+<div id="news_accordion">
+  <h3>5. dubna - Odevzdali jsme petici na radnici MČ Kohoutovice</h3>
+  <div>
+    <b>5. dubna:</b> Odevzdali jsme petici na radnici MČ Kohoutovice
+    <br />
+    spolu s <a href="files/petice_pruvodni_dopis_mc.pdf">průvodním dopisem, který si můžete přečíst i zde</a>.
+    <a id="clickme" href="">Předchozí</a>
+  </div>
+
+  <h3>20. března - Skončila petice proti zástavbě louky</h3>
+  <div>
+    <b>20. března:</b> Petice proti zástavbě louky skončila 20. března.
+    <br />
+    Podepsalo ji <b>682</b> občanů, což považujeme za velký úspěch!
+    <br /><br />
+    <b>Děkujeme všem signatářům petice a zejména těm,
+    <br />
+    kteří ji aktivně šířili mezi ostatní občany Kohoutovic!</b>
+  </div>
+
+  <h3>12. března - Investor V-Honey odstoupil od záměru výstavby hotelu!</h3>
+  <div>
+    <b>12. března: <a href="http://www.kohoutovice.cz/file/3987">Investor V-Honey odstoupil od záměru výstavby hotelu!</a></b>
+    <br />
+    Údajně kvůli "složité ekonomické situaci", ovšem v posledních týdnech si nešlo
+    <br />
+    nevšimnout rozsáhlé vlny odporu proti stavbě mezi kohoutovickými občany.
   </div>
 </div>
 
