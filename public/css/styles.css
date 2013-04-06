@@ -108,30 +108,21 @@ h4 {
 	margin: 0 auto;
 }
 
-#news_container {
+#news_accordion {
 	margin: 0 auto;
-	background-color: lightgreen;
+	margin: -2em 0 2em 0; 
 	color: green;
-	width: 100%;
-	line-height: 1.5;
-	margin: -3em 0 3em; 
-	border-bottom: 1px solid green;
 }
 
-#news {
+#news_accordion div {
 	padding: 1.5em 0 1.5em;
 	text-align: center;
 	font-size: 18px;
 }
 
-
-#news a { 
-	color: green;
-}
-
 #summary #images {
 	float: right; 
-	width: 400px;
+	width: 405px;
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
