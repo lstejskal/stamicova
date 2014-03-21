@@ -2,16 +2,12 @@
 
 ## Description
 
-Media webkit for citizens' association against hotel building in Stamicova street, Brno-Kohoutovice: [http://www.stamicova.cz](http://www.stamicova.cz)
+Media webkit for citizens' association against hotel building in Stamicova street, Brno Kohoutovice: [http://www.stamicova.cz](http://www.stamicova.cz)
 
 ## Deployment
 
-* *master* branch has latest version, which might not be in production yet
-
-* *deploy* branch has version that is deployed in production
-
-* other branches serve as personal or feature branches   
+Hosted as github page in *gh-pages* branch.
 
 ## Authors
 
-Copyright (c) 2013 Lukas Stejskal, Zbynek Svoboda
+Copyright (c) 2013-2014 Lukas Stejskal, Zbynek Svoboda
